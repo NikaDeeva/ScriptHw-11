@@ -6,7 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    <h3>2</h3>
+    <h3>1</h3>
+    <p>Balance: <span id="balance">3000</span></p>
+    <input type="number" id="deposit" placeholder="How many do you want to add?">
+    <input type="number" id="withdraw" placeholder="How many do you want to rest?">
+    <button onclick="updateBalance()">Click</button>
+     <h3>2</h3>
     <h4>How many degrees?</h4>
     <input type="number" id="degrees">
     <button onclick="knowWeather()">Check</button>
@@ -14,6 +19,18 @@
     <input type="email" id="mail" placeholder="Write mail">
     <input type="password" id="pass" placeholder="Write password">
     <button onclick="checkLogin()">Check</button>
+<h3>4</h3>
+<p id="title"> </p>
+<p id="director">DIrector: </p>
+<p id="year">Year: </p>
+<p id="rating">Rating: </p>
+<input type="number" id="movieRating" placeholder="Write the rating">
+<button onclick="movieUpdate()">Click</button>
+<style>
+  .high-rating {
+      color: green;
+  }
+</style>
   <script src="./script.js"></script>  
 </body>
 </html>
